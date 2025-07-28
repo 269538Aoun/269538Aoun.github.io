@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | EL ANZIZ BEN SAID Aounou - Technicien Supérieur Cybersécurité, Informatique et Réseaux, Electronique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">EL ANZIZ Aounou <span>| Technicien Supérieur CIEL</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn-primary">Télécharger CV</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transformez les défis technologiques en solutions innovantes</h1>
+                <p>Recherche d'alternance en Systèmes Numériques Industriels @ ECAM LaSalle</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./fichiers/img/IoT-400x400.jpg" alt="Photo professionnelle" width="400" height="400">
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Algorithmes de traitement de données</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>HTML-CSS-JS</h3>
+                    <p>Gestion interface utilisateur d’un site web</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>PHP-SQL</h3>
+                    <p>Gestion de la partie back-office d’un site</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Arduino et Raspberry</h3>
+                    <p>Supervision industrielle</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-table"></i>
+                    <h3>SharePoint</h3>
+                    <p>Administration d'intranet</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Réseaux Cisco</h3>
+                    <p>Configuration avancée</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows Server</h3>
+                    <p>Administration système</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-linux"></i>
+                    <h3>Linux Server</h3>
+                    <p>Administration système</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Cybersécurité</h3>
+                    <p>Protection et procédures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="python">Python</button>
+            <button class="filter-btn" data-filter="iot">IoT</button>
+            <button class="filter-btn" data-filter="autre">Autre</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-category="iot">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="project-info">
+                            <h3>VITINI</h3>
+                            <p>Solution de surveillance viticole et vinicole</p>
+                            <div class="project-techs">
+                                <span>Raspberry</span>
+                                <span>IoT</span>
+                                <span>Python</span>
+                                <span>PHP-SQL</span>
+                                <span>HTML-CSS-JS</span>
+                                <span>Linux Server</span>
+                            </div>
+                            <button class="btn btn-outline view-details">Voir le projet</button>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <div class="project-details">
+                            <h3>Détails du Projet</h3>
+                            <p>Ce projet consiste en un système de surveillance en temps-réel de données de vignobles et de caves (température, pression, humidité) avec :</p>
+                            <ul>
+                                <li>Capteurs connectés via Raspberry</li>
+                                <li>Interface web de visualisation</li>
+                                <li>Alertes automatiques</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="#https://gitlab.com/groupe-projet-vitini/projet_traitement.git" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i>Code source</a>
+                                <a href="./fichiers/doc/MOLINARI_EL-ANZIZ-BEN-SAID_GONCALVES_DERRAG_ORT_U62_2024_VITINI.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Documentation</a>
+                            </div>
+                            <button class="btn btn-close-details">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="python">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="project-info">
+                            <h3>Bataille</h3>
+                            <p>Jeu de cartes</p>
+                            <div class="project-techs">
+                                <span>Python</span>
+                            </div>
+                            <button class="btn btn-outline view-details">Voir le projet</button>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <div class="project-details">
+                            <h3>Détails du Projet</h3>
+                            <p>Ce projet consiste en une implémentation en Python du jeu de cartes "La Bataille", où deux joueurs s'affrontent en comparant la valeur de leurs cartes, avec des règles spécifiques pour les égalités (bataille).</p>
+                            <div class="project-links">
+                                <a href="./fichiers/code_source/Projet_Hugo_Aounou.py" target="_blank" class="btn btn-outline">Code source</a>
+                                <a href="./fichiers/doc/Projet_Bataille_Hugo_Aounou_2.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Documentation</a>
+                            </div>
+                            <button class="btn btn-close-details">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="autre">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="project-info">
+                            <h3>Dame Chinoise</h3>
+                            <p>Jeu intéractif</p>
+                            <div class="project-techs">
+                                <span>OCaml</span>
+                            </div>
+                            <button class="btn btn-outline view-details">Voir le projet</button>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <div class="project-details">
+                            <h3>Détails du Projet</h3>
+                            <p>Le projet consiste à implémenter une variante du jeu des Dames Chinoises en utilisant le langage de programmation fonctionnelle OCaml. Le jeu se joue sur un plateau en forme d'étoile à six branches, avec des pions que les joueurs doivent déplacer de leur camp vers le camp opposé. Le projet est divisé en deux phases, avec des rendus intermédiaires et une soutenance finale.</p>
+                            <div class="project-links">
+                                <a href="./fichiers/code_source/rendu_etd.ml" target="_blank" class="btn btn-outline">Code source</a>
+                                <a href="./fichiers/doc/Compte-rendu-dame-chinoise.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Documentation</a>
+                            </div>
+                            <button class="btn btn-close-details">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="python">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="project-info">
+                            <h3>BlackJack</h3>
+                            <p>Jeu de cartes intéractif</p>
+                            <div class="project-techs">
+                                <span>Python</span>
+                            </div>
+                            <button class="btn btn-outline view-details">Voir le projet</button>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <div class="project-details">
+                            <h3>Détails du Projet</h3>
+                            <p>Ce projet est une implémentation en Python du jeu de Blackjack avec un croupier et des joueurs humains ou contrôlés par l'ordinateur, incluant des fonctionnalités avancées comme des stratégies de jeu variées, un système de mises dynamique, et des règles spéciales comme l'assurance et les Blackjacks.</p>
+                            <div class="project-links">
+                                <a href="./fichiers/code_source/projet_blackjack.py" target="_blank" class="btn btn-outline">Code source</a>
+                                <a href="./fichiers/doc/readme.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Documentation</a>
+                            </div>
+                            <button class="btn btn-close-details">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="autre">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="project-info">
+                            <h3>CD39BF</h3>
+                            <p>Installation et déploiement d'un système d’information</p>
+                            <div class="project-techs">
+                                <span>Réseaux Cisco</span>
+                                <span>Windows Server</span>
+                                <span>Linux Server</span>
+                            </div>
+                            <button class="btn btn-outline view-details">Voir le projet</button>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <div class="project-details">
+                            <h3>Détails du Projet</h3>
+                            <p>L’objectif est d’installer le système au sein des locaux du comité départemental. Chaque département possède son propre serveur et base de données. Le système a pour objectif de gérer les compétitions de la ligue au niveau régional. Il est basé sur une solution distribuée incluant un serveur Web.</p>
+                            <div class="project-links">
+                                <a href="./fichiers/doc/Powerpoint_du_mini_projet-merged.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Documentation</a>
+                            </div>
+                            <button class="btn btn-close-details">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Réseaux Professionnels</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="#https://github.com/269538Aoun" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="mailto:aounouelanziz@gmail.com?subject=Demande d'information&body=Bonjour," target="_blank"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> 07 49 43 36 72</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Lyon, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EL ANZIZ BEN SAID Aounou. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
