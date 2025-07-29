@@ -82,3 +82,24 @@ document.addEventListener('keydown', (e) => {
         });
     }
 });
+
+
+// Gestion du menu burger
+const menuToggle = document.querySelector('.menu-toggle');
+const mobileMenu = document.querySelector('.mobile-menu');
+const mobileOverlay = document.querySelector('.mobile-overlay');
+
+menuToggle.addEventListener('click', () => {
+    document.body.classList.toggle('menu-open');
+});
+
+mobileOverlay.addEventListener('click', () => {
+    document.body.classList.remove('menu-open');
+});
+
+// Fermer le menu quand on clique sur un lien
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.body.classList.remove('menu-open');
+    });
+});
