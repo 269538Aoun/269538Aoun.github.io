@@ -700,6 +700,10 @@ h2.section-title::after {
     .navbar {
         display: none;
     }
+
+    #cv-destop{
+        display: none;
+    }
     
     .menu-toggle {
         display: block;
