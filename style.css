@@ -698,3 +698,11 @@ h2.section-title::after {
         width: 90%;
     }
 }
+
+.project-info {
+    margin: 25px;
+}
+
+.project-info * {
+    margin-bottom:20px ;
+}
