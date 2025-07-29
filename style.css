@@ -702,7 +702,3 @@ h2.section-title::after {
 .project-info {
     margin: 25px;
 }
-
-.project-info * {
-    margin-bottom:20px ;
-}
